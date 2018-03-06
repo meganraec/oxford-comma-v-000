@@ -6,6 +6,6 @@ def oxford_comma(array)
   array.pop
   array.join(", ")
   else array.length == 1
-  puts array.to_s
+  array.to_s
   end
 end
